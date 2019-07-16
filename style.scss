@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #505962;
+}
+
+
+//NAVBAR
+.navbar {
+
+    background: rgba(255, 255, 255, 1) !important;
+
+    img {
+        height: 1.8rem;
+    }
+
+    .navbar-toggler {
+        border: 0;
+        text-align: center;
+        padding: 5px 5px 5px 3px;
+
+        i {
+            font-size: 30px;
+        }
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-weight: 600;
+
+        &:hover {
+            color: #008cba !important;
+        }
+    }
+
+    .nav-link.active {
+        color: #008cba !important;
+    }
+
+    li {
+        margin-left: 10px;
+    }
+
+}
+
+// SLIDER
