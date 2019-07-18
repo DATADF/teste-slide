@@ -10566,6 +10566,10 @@ a.text-dark:hover, a.text-dark:focus {
   min-height: 100vh;
 }
 
+.about h1 {
+  color: #343a40;
+}
+
 .about .avatar {
   width: 100%;
   max-width: 200px;
@@ -10584,6 +10588,41 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: capitalize;
 }
 
+.contact {
+  min-height: 100vh;
+}
+
+.contact h2, .contact h1 {
+  color: #fff;
+}
+
+.contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact ul li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+}
+
+.contact ul li:first-child {
+  margin-left: 0;
+}
+
+.contact ul li i {
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.contact ul li i:hover {
+  color: #00aad4;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
@@ -10595,8 +10634,15 @@ li {
 }
 
 h1 {
-  font-size: 2rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
   color: #00112b;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #343a40;
 }
 
 h3 {
@@ -10634,6 +10680,10 @@ h3 {
 
 .navbar .nav-link.active {
   color: #008cba !important;
+}
+
+.navbar .nav-item .btn {
+  color: #00aad4;
 }
 
 .navbar li {

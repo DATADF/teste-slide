@@ -1,6 +1,10 @@
 .about {
     min-height: 100vh;
 
+    h1 {
+        color: $dark;
+    }
+
     .avatar {
         width: 100%;
         max-width: 200px;
