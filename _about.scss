@@ -1,0 +1,21 @@
+.about {
+    min-height: 100vh;
+
+    .avatar {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid $primary;
+        background: $white;
+        margin: auto;
+    }
+
+    p {
+        font-weight: 300;
+    }
+
+    .experience {
+        text-transform: capitalize;
+    }
+}
