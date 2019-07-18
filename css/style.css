@@ -10589,7 +10589,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .contact {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .contact h2, .contact h1 {
@@ -10621,6 +10621,21 @@ a.text-dark:hover, a.text-dark:focus {
 
 .contact ul li i:hover {
   color: #00aad4;
+}
+
+.footer {
+  border-top: 1px solid #6c757d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  padding: 0.9rem 0;
 }
 
 body {
