@@ -1,8 +1,8 @@
-@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-@import "about";
-@import "contact";
-@import "footer";
+@import "partials/about";
+@import "partials/contact";
+@import "partials/footer";
 
 body {
     overflow-x: hidden;
@@ -73,6 +73,3 @@ h3 {
     }
 
 }
-
-
-// SLIDER
